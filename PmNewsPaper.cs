@@ -6,7 +6,7 @@ namespace TaskOne
 {
     public class PmNewsPaper : NewsPaper
     {
-        private List<PmNewsPaper> pmNewsPapers = new List<PmNewsPaper>();
+        List<PmNewsPaper> pmNewsPapers = new List<PmNewsPaper>();
 
         public int Id { get; set ; }
         public int Quantity { get; set; }
@@ -19,7 +19,7 @@ namespace TaskOne
         public List<PmNewsPaper> getPmNewsPapers()
         {
             return pmNewsPapers = new List<PmNewsPaper>() {
-
+            pmNewsPapers.AddRange()
             new PmNewsPaper
                 {
                   Id = 1,
@@ -86,7 +86,4 @@ namespace TaskOne
         }
         
     }
-
-
-
 }
